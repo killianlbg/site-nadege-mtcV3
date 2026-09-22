@@ -1,0 +1,21 @@
+/* Modification demandée : opacité des trois images de fond portée à 85 %. */
+/* Conserver le reste de ton fichier style.css inchangé et remplacer uniquement les trois blocs d'arrière-plan concernés. */
+
+.hero {
+  background-image:
+    linear-gradient(135deg, rgba(232, 240, 229, 0.15) 0%, rgba(251, 248, 240, 0.15) 50%, rgba(243, 225, 215, 0.15) 100%),
+    url("https://i0.wp.com/medecine-chinoise-ille-et-vilaine.com/wp-content/uploads/2021/08/cropped-thomas-leduc-head.jpg?fit=1920%2C1080&ssl=1");
+}
+
+#approche.section-with-bg {
+  background-image:
+    linear-gradient(135deg, rgba(251, 248, 240, 0.15) 0%, rgba(237, 243, 233, 0.15) 100%),
+    url("https://medecine-chinoise-ille-et-vilaine.com/wp-content/uploads/2021/08/thomas-leduc-medecine-chinoise-contact.jpg");
+}
+
+#pratiques.section-with-bg-2,
+#nadege.section-with-bg-3 {
+  background-image:
+    linear-gradient(135deg, rgba(237, 243, 233, 0.15) 0%, rgba(255, 254, 250, 0.15) 100%),
+    url("https://medecine-chinoise-ille-et-vilaine.com/wp-content/uploads/2021/08/cropped-thomas-leduc-blog.jpg");
+}
